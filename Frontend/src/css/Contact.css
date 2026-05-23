@@ -1,0 +1,108 @@
+
+@media (max-width: 640px) {
+
+    #contact {
+        flex-direction: column !important;
+        padding: 4rem 1.2rem !important;
+        height: auto !important;
+        gap: 3rem !important;
+    }
+
+    #contact .left,
+    #contact .right {
+        width: 100% !important;
+    }
+
+    #contact .na {
+        font-size: 2.2rem !important;
+        line-height: 2.7rem !important;
+        gap: 0.6rem !important;
+    }
+
+    #contact .na span {
+        font-size: 2.2rem !important;
+    }
+
+    #contact .diff {
+        font-size: 0.85rem !important;
+        line-height: 1.7rem !important;
+        letter-spacing: 1px !important;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 100% !important;
+    }
+
+    #contact .mail,
+    #contact .pno,
+    #contact .linked,
+    #contact .git {
+        height: auto !important;
+        padding-bottom: 0.6rem;
+        align-items: flex-start;
+    }
+
+    #contact a {
+        font-size: 0.7rem !important;
+        word-break: break-word;
+    }
+
+    #contact button {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+
+    #contact {
+        flex-direction: column !important;
+        padding: 5rem 2rem !important;
+        height: auto !important;
+        gap: 4rem !important;
+    }
+
+    #contact .left,
+    #contact .right {
+        width: 100% !important;
+    }
+
+    #contact .na {
+        font-size: 3rem !important;
+        line-height: 3.4rem !important;
+    }
+
+    #contact .na span {
+        font-size: 3rem !important;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 100% !important;
+    }
+
+    #contact .diff {
+        line-height: 1.8rem;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    #contact {
+        padding: 6rem 3rem !important;
+        gap: 3rem !important;
+        height: auto !important;
+    }
+
+    #contact .na {
+        font-size: 3.5rem !important;
+    }
+
+    #contact .na span {
+        font-size: 3.5rem !important;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 100% !important;
+    }
+}

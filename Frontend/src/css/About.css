@@ -1,0 +1,103 @@
+
+@media (max-width: 640px) {
+
+    .main {
+        padding: 4rem 1.2rem !important;
+        height: auto !important;
+    }
+
+    .code {
+        flex-direction: column !important;
+        gap: 3rem !important;
+    }
+
+    .left,
+    .right {
+        width: 100% !important;
+    }
+
+    .na {
+        font-size: 2.2rem !important;
+        line-height: 2.6rem !important;
+        gap: 0.6rem !important;
+        padding: 0px !important;
+    }
+
+    .na span {
+        font-size: 2.2rem !important;
+    }
+
+    .diff {
+        font-size: 0.85rem !important;
+        line-height: 1.7rem !important;
+        letter-spacing: 1px !important;
+    }
+
+    .btn {
+        flex-wrap: wrap !important;
+    }
+
+    .g {
+        flex-direction: column !important;
+        gap: 0.4rem;
+    }
+
+    .btech,
+    .inter {
+        padding: 1rem !important;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+
+    .main {
+        padding: 5rem 2rem !important;
+        height: auto !important;
+    }
+
+    .code {
+        flex-direction: column !important;
+        gap: 4rem !important;
+    }
+
+    .left,
+    .right {
+        width: 100% !important;
+    }
+
+    .na {
+        font-size: 3rem !important;
+        line-height: 3.4rem !important;
+    }
+
+    .na span {
+        font-size: 3rem !important;
+    }
+
+    .btn {
+        flex-wrap: wrap !important;
+    }
+
+    .diff {
+        line-height: 1.9rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .main {
+        padding: 6rem 3rem !important;
+    }
+
+    .code {
+        gap: 3rem !important;
+    }
+
+    .na {
+        font-size: 3.5rem !important;
+    }
+
+    .na span {
+        font-size: 3.5rem !important;
+    }
+}

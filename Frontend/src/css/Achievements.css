@@ -1,0 +1,94 @@
+
+@media (max-width: 640px) {
+
+    #achievement {
+        padding: 4rem 1.2rem !important;
+        height: auto !important;
+    }
+
+    #achievement .na {
+        font-size: 2.2rem !important;
+        line-height: 2.7rem !important;
+        gap: 0.6rem !important;
+    }
+
+    #achievement .na span {
+        font-size: 2.2rem !important;
+    }
+
+    .achievements {
+        flex-direction: column !important;
+        gap: 1.5rem !important;
+    }
+
+    .achievements > div {
+        width: 100% !important;
+        padding: 1.3rem !important;
+    }
+
+    .achievements h1 {
+        font-size: 1rem !important;
+        line-height: 1.5rem;
+    }
+
+    .achievements p {
+        font-size: 0.8rem !important;
+        line-height: 1.5rem;
+        letter-spacing: 1px !important;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+
+    #achievement {
+        padding: 5rem 2rem !important;
+        height: auto !important;
+    }
+
+    #achievement .na {
+        font-size: 3rem !important;
+        line-height: 3.4rem !important;
+    }
+
+    #achievement .na span {
+        font-size: 3rem !important;
+    }
+
+    .achievements {
+        flex-wrap: wrap !important;
+        gap: 1.5rem !important;
+        justify-content: center;
+    }
+
+    .achievements > div {
+        width: 45% !important;
+    }
+
+    .achievements p {
+        line-height: 1.7rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    #achievement {
+        padding: 6rem 3rem !important;
+        height: auto !important;
+    }
+
+    .achievements {
+        gap: 1.2rem;
+    }
+
+    .achievements > div {
+        width: 31% !important;
+    }
+
+    #achievement .na {
+        font-size: 3.5rem !important;
+    }
+
+    #achievement .na span {
+        font-size: 3.5rem !important;
+    }
+}

@@ -1,0 +1,136 @@
+
+@media (max-width: 640px) {
+
+    #projects {
+        padding: 4rem 1.2rem !important;
+        height: auto !important;
+        gap: 3rem !important;
+    }
+
+    #projects .pro {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 1.5rem !important;
+    }
+    #projects .pro button {
+        padding: 10px;
+    }
+
+    #projects .na {
+        font-size: 2.2rem !important;
+        line-height: 2.7rem !important;
+        gap: 0.8rem !important;
+    }
+
+    #projects .na span {
+        font-size: 2.2rem !important;
+    }
+
+    .pojects {
+        flex-direction: column !important;
+        gap: 2rem !important;
+    }
+
+    .pojects > div {
+        width: 100% !important;
+    }
+
+    .cont {
+        padding: 1.3rem !important;
+    }
+
+    .cont h1 {
+        font-size: 1.3rem !important;
+        line-height: 2rem;
+    }
+
+    .cont .diff {
+        font-size: 0.85rem !important;
+        line-height: 1.6rem !important;
+        letter-spacing: 1px !important;
+    }
+
+    .stack {
+        flex-wrap: wrap !important;
+    }
+
+    .stack button {
+        font-size: 0.6rem !important;
+    }
+
+    .cont .flex.gap-5 {
+        flex-wrap: wrap;
+        gap: 1rem !important;
+    }
+
+    .pro button {
+        width: 100% !important;
+    }
+}
+@media (min-width: 641px) and (max-width: 1024px) {
+
+    #projects {
+        padding: 5rem 2rem !important;
+        height: auto !important;
+    }
+
+    #projects .pro {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 2rem !important;
+    }
+
+    #projects .na {
+        font-size: 3rem !important;
+        line-height: 3.4rem !important;
+    }
+
+    #projects .na span {
+        font-size: 3rem !important;
+    }
+
+    .pojects {
+        flex-direction: column !important;
+        gap: 2rem !important;
+    }
+
+    .pojects > div {
+        width: 100% !important;
+    }
+
+    .stack {
+        flex-wrap: wrap !important;
+    }
+
+    .cont .diff {
+        line-height: 1.8rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    #projects {
+        padding: 6rem 3rem !important;
+        height: auto !important;
+    }
+
+    #projects .na {
+        font-size: 3.5rem !important;
+    }
+
+    #projects .na span {
+        font-size: 3.5rem !important;
+    }
+
+    .pojects {
+        gap: 1.5rem !important;
+    }
+
+    .pojects > div {
+        width: 50% !important;
+    }
+
+    .stack {
+        flex-wrap: wrap !important;
+    }
+}

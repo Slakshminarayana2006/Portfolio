@@ -1,0 +1,182 @@
+
+@media (max-width: 640px) {
+
+    .about {
+        padding-top: 6rem !important;
+    }
+
+    .sec1 {
+        flex-direction: column-reverse !important;
+        gap: 2rem !important;
+    }
+
+    .sec1 .left,
+    .sec1 .right {
+        width: 100% !important;
+    }
+
+    .sec1 .left {
+        padding: 1rem 1.2rem 3rem 1.2rem !important;
+    }
+    .divv {
+        gap: 3rem !important;
+    }
+
+
+    .sec1 .na {
+        font-size: 2.7rem !important;
+        line-height: 3.2rem !important;
+    }
+
+    .sec1 .na span {
+        font-size: 2.7rem !important;
+        top: 3.2rem !important;
+    }
+
+    .profile {
+        margin-top: 14px;
+        height: 13rem !important;
+        width: 13rem !important;
+    }
+
+    .diff {
+        width: 100% !important;
+        font-size: 0.9rem !important;
+        line-height: 1.7rem !important;
+    }
+
+    .buttons {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+
+    .buttons button {
+        width: 100% !important;
+    }
+
+    .right {
+        gap: 2rem;
+    }
+
+    .right .div {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        padding: 0 1rem;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+
+    .sec1 {
+        flex-direction: column-reverse !important;
+        gap: 4rem !important;
+    }
+
+    .sec1 .left,
+    .sec1 .right {
+        width: 100% !important;
+    }
+
+    .sec1 .left {
+        padding: 2rem !important;
+    }
+
+    .divv {
+        gap: 2.5rem !important;
+    }
+
+    .sec1 .na {
+        font-size: 4.5rem !important;
+        line-height: 5rem !important;
+    }
+
+    .sec1 .na span {
+        font-size: 4.5rem !important;
+        top: 5rem !important;
+    }
+
+    .profile {
+        height: 16rem !important;
+        width: 16rem !important;
+    }
+
+    .diff {
+        width: 80% !important;
+        line-height: 1.8rem;
+    }
+
+    .buttons {
+        flex-wrap: wrap !important;
+    }
+
+    .right .div {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .sec1 .left {
+        padding: 3rem !important;
+    }
+
+    .divv {
+        gap: 3rem !important;
+    }
+
+    .sec1 .na {
+        font-size: 5rem !important;
+        line-height: 5.5rem !important;
+    }
+
+    .sec1 .na span {
+        font-size: 5rem !important;
+        top: 5.5rem !important;
+    }
+
+    .profile {
+        height: 16rem !important;
+        width: 16rem !important;
+    }
+
+    .right .div {
+        flex-wrap: wrap !important;
+        justify-content: center;
+        padding: 0 2rem;
+    }
+}
+@media (max-width: 640px) {
+
+    .divv {
+        gap: 2rem !important;
+    }
+
+    .left h1 {
+    position: relative;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+    .left h1 span {
+        top: 3.5rem !important;
+        left: 0;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+
+    .divv {
+        gap: 6rem !important;
+    }
+
+    .left h1 {
+        position: relative;
+        padding-bottom: 4rem;
+    }
+
+    .left h1 span {
+        top: 5rem !important;
+        left: 0;
+    }
+}
