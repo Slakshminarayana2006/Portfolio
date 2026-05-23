@@ -3,7 +3,7 @@ const app = express();
 const dataModel = require('./model/dataModel');
 const mongoose = require('mongoose');
 const cors = require('cors')
-mongoose.connect('mongodb://localhost:27017/PortfolioData')
+mongoose.connect(`${process.env.MONGODB}`)
 .then(() => {
     console.log("connected");
 })
