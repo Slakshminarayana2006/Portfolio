@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import pic from '../assets/pic2.jpg'
+import pic from '../assets/IMG_20260630_162705.jpg'
 import '../css/Home.css'
 
 function Home() {
