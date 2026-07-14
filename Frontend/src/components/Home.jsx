@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import pic from '../assets/pic.png'
+import pic from '../assets/pic2.jpg'
 import '../css/Home.css'
 
 function Home() {
@@ -24,12 +24,15 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="right flex flex-col  items-center w-[50%] justify-around">
-                    <div className="img  ">
+                <div className="right flex flex-col  items-center w-[50%] gap-10">
+                    <div className="img  mt-15 mb-15">
                         <img src={pic} alt=""  className=" h-72 w-72 profile rounded-full object-cover shadow-[0_0_30px_rgba(79,142,247,0.7)]  transition-all duration-300"
   style={{
     animation: "float 2.5s ease-in-out infinite",
   }}/>
+                    </div>
+                    <div className="resume">
+                        <a href='https://drive.google.com/file/d/1prC8lYODRkjNpZcJqRqLUTrDO8hReXRz/view?usp=drive_link' target='_BLANK'><button className='border-[#6b7080] text-[#08090c] border text-[] h-10 w-40 bg-[#4f8ef7] text-[0.7rem] tracking-widest hover:bg-[#354b70] cursor-pointer'>VIEW RESUME</button></a>
                     </div>
                     <div className="div flex gap-5">
                         <button className='border border-[#6b7080] text-[#6b7080] text-[0.6rem] p-1 tracking-widest '>REACT</button>

@@ -15,7 +15,7 @@ function Achievements() {
             <div className="achievements flex ">
                 <div className="p-8 w-100 border border-[#E8EAF012] flex flex-col gap-3 hover:bg-[#13141b] transition ">
                     <img src={leetcode} alt="" className='h-10 w-10 rounded-full' />
-                    <h1 className='na text-[#e8eaf0] flex gap-4 items-center tracking-tighter text-[1.1rem] font-bold'>200+ LeetCode Problems</h1>
+                    <h1 className='na text-[#e8eaf0] flex gap-4 items-center tracking-tighter text-[1.1rem] font-bold'>300+ LeetCode Problems</h1>
                     <p className='text-[#6b7080] text-[0.83rem] diff tracking-widest'>Consistently sharpening data structures and algorithms skills, tackling problems ranging from arrays and recursion to dynamic programming.</p>
                 </div>
                 <div className="p-8 w-100 border border-[#E8EAF012] flex flex-col gap-3 hover:bg-[#13141b] transition ">

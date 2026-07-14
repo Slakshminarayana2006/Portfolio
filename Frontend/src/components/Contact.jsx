@@ -20,7 +20,7 @@ function Contact() {
         e.preventDefault()
 
         try {
-            const res = await axios.post('https://portfolio-8n08.onrender.com/post', formData)
+            const res = await axios.post('http://localhost:3000/post', formData)
 
             alert('Message Sent Successfully✔')
 
