@@ -20,7 +20,7 @@ function Contact() {
         e.preventDefault()
 
         try {
-            const res = await axios.post('http://localhost:3000/post', formData)
+            const res = await axios.post('https://portfolio-2-u692.onrender.com/post', formData)
 
             alert('Message Sent Successfully✔')
 
