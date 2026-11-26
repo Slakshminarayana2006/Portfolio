@@ -19,21 +19,21 @@ function Projects() {
                             <p className='text-[#6b7080] tracking-widest text-[0.64rem]'>01/02</p>
                             <div className="">
                                 <p className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>2026</p>
-                                <h1 className='na text-[#e8eaf0] flex gap-4 items-center tracking-tighter text-[1.6rem] font-bold'>AI Interview Helper</h1>
+                                <h1 className='na text-[#e8eaf0] flex gap-4 items-center tracking-tighter text-[1.6rem] font-bold'>DriveShifter</h1>
                             </div>
-                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-tight'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Built a MERN platform that turns a resume and job description into a personalized interview prep report using the Google Gemini API.</p>
-                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-tight'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Generates match scores, tailored technical/behavioral questions, skill-gap analysis, and a day-wise prep plan, cutting manual prep research time by ~60%.</p>
-                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-tight'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Implemented JWT authentication, Cloudinary file storage, and Puppeteer + pdf-parse pipelines for resume parsing and AI-tailored PDF resume generation.</p>
+                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-tight'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Built a full-stack app that connects two Google Drive accounts and transfers files and folders directly between them, with no manual download or re-upload.</p>
+                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-tight'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Streams files through the Google Drive API v3 and copies nested folders recursively, tracking each file's status with PostgreSQL and Prisma.</p>
+                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-tight'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Implemented Google OAuth 2.0 and JWT authentication, a stats dashboard, a searchable transfer history, and 20 Jest unit tests.</p>
                             <div className="stack flex gap-3 items-center">
                                 <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>REACT</button>
-                                <button className=' text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>NODE.JS</button>
-                                <button className=' text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>MONGODB</button>
-                                <button className=' text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>GEMINI API</button>
-                                <button className=' text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>JWT</button>
+                                <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>NODE.JS</button>
+                                <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>POSTGRESQL</button>
+                                <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>DRIVE API</button>
+                                <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>OAUTH 2.0</button>
                             </div>
                             <div className="flex gap-5">
-                                <a href="https://github.com/Slakshminarayana2006/AI-Interview-Helper-MERN" target='_blank' className='text-[#6b7080] tracking-widest text-[0.7rem] hover:text-[#4f8ef7] transition duration-300 cursor-pointer'>GITHUB ↗</a>
-                                <a href="https://ai-interview-helper-mern.vercel.app/" target='_blank' className='text-[#6b7080] tracking-widest text-[0.7rem] hover:text-[#4f8ef7] transition duration-300 cursor-pointer'>LIVE DEMO ↗</a>
+                                <a href="https://github.com/Slakshminarayana2006/DriveShifter" target='_blank' className='text-[#6b7080] tracking-widest text-[0.7rem] hover:text-[#4f8ef7] transition duration-300 cursor-pointer'>GITHUB ↗</a>
+                                <a href="https://drive-shifter.vercel.app" target='_blank' className='text-[#6b7080] tracking-widest text-[0.7rem] hover:text-[#4f8ef7] transition duration-300 cursor-pointer'>LIVE DEMO ↗</a>
                             </div>
                         </div>
                     </div>
@@ -42,21 +42,21 @@ function Projects() {
                             <p className='text-[#6b7080] tracking-widest text-[0.64rem]'>02/02</p>
                             <div className="">
                                 <p className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>2026</p>
-                                <h1 className='na text-[#e8eaf0] flex gap-4 items-center tracking-tighter text-[1.6rem] font-bold'>AI Chatbot Application</h1>
+                                <h1 className='na text-[#e8eaf0] flex gap-4 items-center tracking-tighter text-[1.6rem] font-bold'>AI Interview Helper</h1>
                             </div>
-                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-widest'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Managed global state efficiently using Redux Toolkit to handle chatbot interactions.</p>
-                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-widest'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Implemented async API calls using Thunk for real-time responses from a third-party API.</p>
-                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-widest'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Designed a responsive UI with Tailwind CSS for improved usability and performance.</p>
+                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-tight'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Built a MERN platform that turns a resume and job description into a personalized interview prep report using the Google Gemini API.</p>
+                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-tight'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Generates match scores, tailored technical/behavioral questions, skill-gap analysis, and a day-wise prep plan, cutting manual prep research time by ~60%.</p>
+                            <p className='text-[#E8EAF0A6] text-[0.95rem] diff tracking-tight'><span className='text-[#4f8ef7] tracking-[4px] text-[0.7rem]'>--</span> Implemented JWT authentication, Cloudinary file storage, and Puppeteer + pdf-parse pipelines for resume parsing and AI-tailored PDF resume generation.</p>
                             <div className="stack flex gap-3 items-center">
                                 <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>REACT</button>
-                                <button className=' text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>REDUX TOOLKIT</button>
-                                <button className=' text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>THUNK</button>
-                                <button className=' text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>TAILWIND CSS</button>
-                                <button className=' text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>REST API</button>
+                                <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>NODE.JS</button>
+                                <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>MONGODB</button>
+                                <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>GEMINI API</button>
+                                <button className='text-[0.7rem] p-1 tracking-widest deg transition duration-300  border border-[#4f8ef7] text-[#4f8ef7] bg-[#23334e]'>JWT</button>
                             </div>
                             <div className="flex gap-5">
-                                <a href="https://github.com/Slakshminarayana2006/Chatbot" target='_blank' className='text-[#6b7080] tracking-widest text-[0.7rem] hover:text-[#4f8ef7] transition duration-300 cursor-pointer'>GITHUB ↗</a>
-                                <a href="https://chatbot-seven-gold-46.vercel.app/" target='_blank' className='text-[#6b7080] tracking-widest text-[0.7rem] hover:text-[#4f8ef7] transition duration-300 cursor-pointer'>LIVE DEMO ↗</a>
+                                <a href="https://github.com/Slakshminarayana2006/AI-Interview-Helper-MERN" target='_blank' className='text-[#6b7080] tracking-widest text-[0.7rem] hover:text-[#4f8ef7] transition duration-300 cursor-pointer'>GITHUB ↗</a>
+                                <a href="https://ai-interview-helper-mern.vercel.app/" target='_blank' className='text-[#6b7080] tracking-widest text-[0.7rem] hover:text-[#4f8ef7] transition duration-300 cursor-pointer'>LIVE DEMO ↗</a>
                             </div>
                         </div>
                     </div>
